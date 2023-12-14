@@ -1,0 +1,16 @@
+```plaintext
+selenium==3.141.0
+webdriver_manager==3.4.2
+```
+
+In this example, `selenium` is listed with a specific version (you can replace this with the version you need), and `webdriver_manager` is another library that might be used in conjunction with Selenium.
+
+Remember to update the versions to match the specific versions you are using in your project. You can find the latest versions on the [Python Package Index (PyPI)](https://pypi.org/).
+
+Feel free to add or remove dependencies based on the requirements of your project. Once you've created the `requirements.txt` file, others can use it to install the necessary dependencies by running:
+
+```bash
+pip install -r requirements.txt
+```
+
+Make sure to include this file in the root directory of your GitHub repository.
